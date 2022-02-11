@@ -1,5 +1,5 @@
 function inputBalance(balance, balanceValue, inputValue,input){
-    balance.innerText = balanceValue + inputValue ;                 //update main balance
+    balance.innerText = balanceValue + inputValue ;                 //update depo/withdraw balance
     input.value= '';
 }
 function updateBalance(inputID, balanceID,add){
